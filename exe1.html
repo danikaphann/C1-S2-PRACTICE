@@ -22,9 +22,10 @@
                 <button onclick="displayTasks(task_list)">Show all the tasks</button>
             </form>
         </div>
-    
         <div id="tasks"></div>
     </div>
+
+    <!-- exercise1 -->
     <script>
         let task_list = [
             { descriptions: "Task 1", priority: 1 },
@@ -47,6 +48,7 @@
         }
         displayTasks(task_list);
 
+        // exercise2
         function add() {
             let taskInput = document.getElementById("fill-in").value.trim();
             let priorityInput = document.getElementById("priority").value;
